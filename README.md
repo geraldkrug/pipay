@@ -3,7 +3,7 @@ Python script to make a transaction
 using stellar blockchain to pi network testnet.
 use pythonanywhere.com
 script name pipay.py
-import stellar_sdk with bash coonsole...
+import stellar_sdk with bash console...
 pip install stellar-sdk==3.1.4
 
 
@@ -259,10 +259,15 @@ class PiNetwork:
         elif len(seed) != 56:
             return False
         return True
+        
 api_key = "vttzxpy7dqsvathcd4xx7hheafuxnrwld7sehjdeulwpqu6algxikwdq0sfp4j"
+
 wallet_private_seed = "HD7MEIN5SY6UIX6ZP7XPDUG6ZTJN4RBNZ4OPIKP5QOCIECJNUJD6ZA"
+
 debug_mode = True
+
 pi = PiNetwork()
+
 pi.initialize(api_key, wallet_private_seed, "Pi Testnet")
 
 user_uid = "b0d208-4e15-4582-9325-d9adb69489fa" #unique for every user
