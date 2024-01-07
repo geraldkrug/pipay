@@ -3,6 +3,7 @@ Python script to make a transaction
 using stellar blockchain to pi network testnet.
 use https://geraldkrug.pythonanywhere.com
 script name pipay.py
+https://github.com/geraldkrug/pipay/blob/main/pipaypy.png
 import stellar_sdk with bash console...
 pip install stellar-sdk==3.1.4
 
